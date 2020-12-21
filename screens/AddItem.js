@@ -1,12 +1,12 @@
 import { Component } from "react";
 import { Text } from "react-native";
 
-export class AddItem extends Component {
+export default class AddItem extends Component {
     render() {
         return (
             <View>
-                <Text>Add Item</Text>
+                <Text>Add Items</Text>
             </View>
-        )
+        );
     }
 }

@@ -4,10 +4,16 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 
 import Home from './screens/Home';
+import AddItem from './screens/AddItem';
+import List from './screens/List';
 
 const AppNavigator = createStackNavigator({
   Home,
-  
+  AddItem,
+  List  
+},
+{
+  initialRouteName: 'Home'
 });
 
 const AppContainer = createAppContainer(AppNavigator);
