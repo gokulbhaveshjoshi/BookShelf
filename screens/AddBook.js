@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 
-
-export default class List extends Component {
+export default class AddBook extends Component {
     render() {
         return (
             <View>
-                <Text>List</Text>
+                <Text>Add Items</Text>
             </View>
         );
     }
