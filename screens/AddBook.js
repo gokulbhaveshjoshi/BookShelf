@@ -5,7 +5,7 @@ export default class AddBook extends Component {
     render() {
         return (
             <View>
-                <Text>Add Items</Text>
+                <Text>Add Book</Text>
             </View>
         );
     }

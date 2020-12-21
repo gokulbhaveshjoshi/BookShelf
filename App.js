@@ -13,7 +13,7 @@ const AppNavigator = createStackNavigator({
   List  
 },
 {
-  initialRouteName: 'List'
+  initialRouteName: 'Home'
 });
 
 const AppContainer = createAppContainer(AppNavigator);
