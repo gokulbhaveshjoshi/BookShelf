@@ -1,4 +1,4 @@
-# BookShelf
+
 # Book Shelf
 ## Book shelf is an react-native and firebase based application.
 
@@ -6,8 +6,8 @@
 #### Book Shelf is an application where you can fill details of a book as Book name, Book Author, Book Description and Rating. All data save at google firebase.
 
 ## Alerts
-After saving data
-Don’t fill value in Book Name and Book Author
+1. After saving data
+2. Don’t fill value in Book Name and Book Author
 
 ## Dependence
 Firebase
