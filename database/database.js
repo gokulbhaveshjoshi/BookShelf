@@ -1,5 +1,6 @@
 import firebase from 'firebase';
-var firebaseConfig = {
+
+const config = {
     apiKey: "AIzaSyCmreuZeAV5n6OtdFJYwhh-rjj425UL4I0",
     authDomain: "reactnativedatabase-a4080.firebaseapp.com",
     databaseURL: "https://reactnativedatabase-a4080-default-rtdb.firebaseio.com",
@@ -10,5 +11,6 @@ var firebaseConfig = {
     measurementId: "G-73QE344KNM"
   };
   // Initialize Firebase
-  let app = firebase.initializeApp(firebaseConfig);
+  
+  let app = firebase.initializeApp(config);
   export const db = app.database();
